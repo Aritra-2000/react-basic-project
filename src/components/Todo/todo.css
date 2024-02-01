@@ -1,0 +1,46 @@
+.todo {
+    display: grid;
+    margin: 12px 380px 0px;
+}
+
+.todos {
+    display: grid;
+    margin: 50px;
+    width: 200px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.addTodo {
+    margin: 12px 10px 12px 12px;
+}
+
+input {
+    margin: 2px 0 5px;
+}
+
+.btn-todo {
+    margin: 0px -2px 0px;
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-todo:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading {
+
+    text-align: center;
+    padding: 10px 0px 7px;
+}
